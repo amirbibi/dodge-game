@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGameCharacter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GameCharacter xsi:type="Enemy">
+    <deserializedX>186</deserializedX>
+    <deserializedY>373</deserializedY>
+    <X>186</X>
+    <Y>373</Y>
+    <id>1</id>
+    <isAlive>true</isAlive>
+  </GameCharacter>
+  <GameCharacter xsi:type="Enemy">
+    <deserializedX>663</deserializedX>
+    <deserializedY>286</deserializedY>
+    <X>663</X>
+    <Y>286</Y>
+    <id>2</id>
+    <isAlive>true</isAlive>
+  </GameCharacter>
+  <GameCharacter xsi:type="Enemy">
+    <deserializedX>488</deserializedX>
+    <deserializedY>318</deserializedY>
+    <X>488</X>
+    <Y>318</Y>
+    <id>3</id>
+    <isAlive>true</isAlive>
+  </GameCharacter>
+  <GameCharacter xsi:type="Enemy">
+    <deserializedX>671</deserializedX>
+    <deserializedY>188</deserializedY>
+    <X>671</X>
+    <Y>188</Y>
+    <id>4</id>
+    <isAlive>true</isAlive>
+  </GameCharacter>
+  <GameCharacter xsi:type="Enemy">
+    <deserializedX>777</deserializedX>
+    <deserializedY>353</deserializedY>
+    <X>777</X>
+    <Y>353</Y>
+    <id>5</id>
+    <isAlive>true</isAlive>
+  </GameCharacter>
+  <GameCharacter xsi:type="Enemy">
+    <deserializedX>595</deserializedX>
+    <deserializedY>294</deserializedY>
+    <X>595</X>
+    <Y>294</Y>
+    <id>6</id>
+    <isAlive>true</isAlive>
+  </GameCharacter>
+  <GameCharacter xsi:type="Enemy">
+    <deserializedX>595</deserializedX>
+    <deserializedY>430</deserializedY>
+    <X>595</X>
+    <Y>430</Y>
+    <id>7</id>
+    <isAlive>true</isAlive>
+  </GameCharacter>
+  <GameCharacter xsi:type="Enemy">
+    <deserializedX>410</deserializedX>
+    <deserializedY>181</deserializedY>
+    <X>410</X>
+    <Y>181</Y>
+    <id>8</id>
+    <isAlive>true</isAlive>
+  </GameCharacter>
+  <GameCharacter xsi:type="Enemy">
+    <deserializedX>301</deserializedX>
+    <deserializedY>32</deserializedY>
+    <X>301</X>
+    <Y>32</Y>
+    <id>9</id>
+    <isAlive>true</isAlive>
+  </GameCharacter>
+  <GameCharacter xsi:type="Enemy">
+    <deserializedX>335</deserializedX>
+    <deserializedY>271</deserializedY>
+    <X>335</X>
+    <Y>271</Y>
+    <id>10</id>
+    <isAlive>true</isAlive>
+  </GameCharacter>
+  <GameCharacter xsi:type="Player">
+    <deserializedX>350</deserializedX>
+    <deserializedY>150</deserializedY>
+    <X>350</X>
+    <Y>150</Y>
+    <gamePaused>false</gamePaused>
+  </GameCharacter>
+</ArrayOfGameCharacter>

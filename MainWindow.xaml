@@ -1,0 +1,20 @@
+﻿<Window x:Class="DodgeGame.Shared.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DodgeGame.Shared"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" FontSize="20">
+    <Canvas x:Name="GameCanvas">
+        <Button x:Name="Pause" Content="⏸" Canvas.Left="4" Canvas.Top="0" Height="30" Width="30" Background="{x:Null}" BorderBrush="{x:Null}" HorizontalAlignment="Left" VerticalAlignment="Center" Click="Pause_Click"/>
+        <Button x:Name="Play" Content="▷" Canvas.Left="39" Canvas.Top="0" Height="30" Width="30" Background="{x:Null}" BorderBrush="{x:Null}" HorizontalAlignment="Left" VerticalAlignment="Center" Click="Play_Click"/>
+        <Button x:Name="NewGame" Content="New Game" Canvas.Left="69" Canvas.Top="3" Height="24" Width="89" Background="{x:Null}" BorderBrush="Gray" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="16" FontWeight="Bold" Click="NewGame_Click"/>
+        <Button x:Name="SaveGame" Content="Save Game" Canvas.Left="163" Canvas.Top="3" Height="24" Width="89" Background="{x:Null}" BorderBrush="Gray" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="16" FontWeight="Bold" Click="SaveGame_Click"/>
+        <Button x:Name="LoadGame" Content="Load Game" Canvas.Left="257" Canvas.Top="3" Height="24" Width="89" Background="{x:Null}" BorderBrush="Gray" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="16" FontWeight="Bold" Click="LoadGame_Click"/>
+        <TextBlock x:Name="PauseNotation" Canvas.Left="351" TextWrapping="Wrap" Text="⏸" Canvas.Top="169" FontSize="72" Visibility="Collapsed"/>
+        <TextBlock x:Name="GameLostNotation" Canvas.Left="351" TextWrapping="Wrap" Text="You Lost! 👎" Canvas.Top="169" FontSize="72" Visibility="Collapsed"/>
+        <TextBlock x:Name="GameWonNotation" Canvas.Left="351" TextWrapping="Wrap" Text="You Won! ♛ " Canvas.Top="169" FontSize="72" Visibility="Collapsed"/>
+
+    </Canvas>
+</Window>
